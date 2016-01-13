@@ -1,0 +1,1315 @@
+/* Layout */
+@import url("../fonts/stylesheet.css");
+
+
+@font-face {
+  font-family: "opensans-reg";
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "opensans-light";
+  src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: "opensans-semibold";
+  src: url('../fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+  font-family: "opensans-bold";
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+
+
+/* Core Style Guide
+=================================================== */
+
+html, body {
+  height: 100%;
+}
+
+h1 {
+  color: #444A59;
+}
+
+h2 {
+  color: #444A59;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  font-size: 2em;
+  /* line-height: 1.3em; */
+  font-family: "Lato"; 
+}
+
+h3 {
+  color: #444a59;
+}
+
+p {
+  font-family: "Lato"; 
+  color: #7C808A;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+@media(min-width: 1200px) {
+  .container {
+    width: 1250px;
+  }
+}
+
+hr {
+  margin-left: -50px;
+  margin-right: -50px;
+  clear: both;
+}
+
+/* Tutor Profile
+=================================================== */
+
+
+/* AWESOME FONT-SMOOTHING! */
+
+html, html a {
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato"; 
+  /* background: #333 url("../img/bg.jpg") no-repeat center center fixed; */
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+  background-color: #F5F6F6;
+  color: #7C808A;
+  position: relative;
+  z-index: 1;
+}
+
+.teacher-profile {
+  background: #444A59;
+  -moz-box-shadow:    0px 1px 3px 0px rgba(0,0,0,0.40);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+  box-shadow:         0px 1px 3px 0px rgba(0,0,0,0.40);
+  border-radius: 3px;
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.head-section {
+  background-image: linear-gradient(-246deg, #4E5A66 0%, #444A59 90%);
+  padding: 50px;
+}
+
+.profile-photo {
+  border-radius: 200px;
+  width: 15%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.teacher-photo{
+  display: inline-block;
+}
+.teacher-photo img {
+  width: 100%;
+}
+
+.teacher-summary {
+  display: inline-block;
+  margin-left: 35px;
+  /* margin-top: 12px; */
+  margin-top: 0;
+  width: 75%;
+}
+.teacher-name {
+  color: #ffffff;
+  margin-bottom: 5px;
+  margin-top: 9px;
+  max-width: 400px;
+}
+.teacher-school {
+  margin-bottom: 8px;
+  color: #fff;
+}
+.light-text-color {
+  color: #fff;
+}
+
+.contact-segment-options {
+  max-width: 1200px;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+.contact-segment-option {
+  color: white;
+  padding: 14px 20px 14px 20px;
+  background-color: #393F4C;
+  font-family: "Lato"; font-weight: 700;
+  text-align: center;
+  font-size: 0.9em;
+}
+.hire {
+  background-color: #F55466;
+  letter-spacing: 0.1em;
+  -webkit-transition: All 0.2s ease;
+  -moz-transition: All 0.2s ease;
+  -o-transition: All 0.2s ease;
+  -ms-transition: All 0.2s ease;
+  transition: All 0.2s ease;
+}
+.hire:hover {
+  text-decoration: none;
+  background-color: #CE4655;
+}
+.contact-icon {
+  margin-right: 5px;
+}
+
+.teacher-profile-segments {
+  width: 100%;
+  background-color: #fff;
+  padding: 0 50px;
+}
+
+.teacher-profile-segment {
+  width: 100%;
+  padding: 50px 0 30px 0;
+  clear: both;
+}
+
+
+.teacher-education-school {
+  /* margin-top: 30px; */
+}
+.school-text {
+  float: left;
+}
+.school-name {
+  font-family: "Lato"; font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 1.3em;
+}
+.course-name {
+  margin: 0;
+}
+.school-logo {
+  float: right;
+}
+.school-logo img {
+  width: 150px;
+  margin-bottom: 60px;
+}
+
+
+.reviews {
+  list-style: none;
+  padding: 0px;
+  clear: both;
+}
+.review {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #D2D2D6;
+}
+.review-date {
+  margin-top: 10px;
+}
+.review-customer-summary {
+  display: inline-block;
+  margin-left: 20px;
+}
+.review-customer-photo {
+  width: 70px;
+  height: 70px;
+}
+.review-customer-photo img {
+  min-width: 70px;
+  min-height: 70px;
+  max-width: 100px;
+  max-height: 100px;
+}
+.review-customer-name {
+  font-size: 1.3em;
+  font-family: "Lato"; font-weight: 700;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+.review-customer-school {
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+.star {
+  display: inline;
+  color: white;
+  font-family: "Lato"; 
+}
+.review-count {
+  margin-left: 5px;
+}
+.star .fa-star {
+  color: #DDBA76;
+  font-size: 1.4em;
+  margin-right: 1px;
+}
+.review-content {
+  clear: both;
+  margin-top: 35px;
+}
+
+
+.red-button {
+  color: white;
+  padding: 14px 30px 14px 30px;
+  background-color: #F55466;
+  border-radius: 3px;
+  text-align: center;
+  font-family: "Lato"; font-weight: 700;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  -webkit-transition: All 0.2s ease;
+  -moz-transition: All 0.2s ease;
+  -o-transition: All 0.2s ease;
+  -ms-transition: All 0.2s ease;
+  transition: All 0.2s ease;
+}
+.red-button:hover {
+  text-decoration: none;
+  background-color: #CE4655;
+}
+.teacher-profile-cta {
+  margin: 45px auto 0px auto;
+  width: 60%;
+  padding-bottom: 50px;
+}
+
+.teacher-profile-quote {
+  background-color: #F5F6F6;
+  padding-bottom: 50px;
+}
+.quote-message {
+  padding-right: 40px;
+}
+.quote-price {
+  border: 1px solid #C4C7CB;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+  max-width: 155px;
+}
+.quote-price h2 {
+  margin-bottom: 5px;
+}
+.quote-price p {
+  margin-top: 0;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 767px) {
+  
+  .teacher-profile {
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .teacher-summary {
+    text-align: center;
+    display: block;
+    margin-left: 0;
+    width: 100%;
+  }
+  .teacher-name {
+    margin: 0 auto 5px auto;
+
+  }
+  .teacher-photo {
+    display: block;
+    float: none;
+    margin: 10px auto 30px auto;
+  }
+  .teacher-photo img {
+    width: 100px;
+  }
+
+  .head-section {
+    padding: 50px 30px 50px 30px;
+  }
+
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+    position: relative; 
+  }
+
+  .teacher-name {
+    max-width: 210px;
+  }
+
+  .contact-segment-option span {
+    display: none;
+  }
+
+  .teacher-profile-segments {
+    padding: 0 30px;
+  }
+
+  .teacher-profile-segment {
+    padding: 50px 0 35px 0;
+  }
+
+  .teacher-profile-quote {
+    padding-bottom: 50px;
+  }
+  .teacher-profile-quote .quote-message {
+    margin-bottom: 25px;
+    padding-right: 30px;
+  }
+
+  .school-logo {
+    float: left;
+    margin-top: 15px;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .review-customer-photo {
+    width: 55px;
+    height: 55px;
+  }
+  .review-customer-name {
+    margin-top: 7px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+
+/* Quotes
+=================================================== */
+
+.dashboard-header {
+  background: #333 url("../img/guidance-bg-1.jpg") no-repeat;
+  background-size: cover;
+  background-position: 55% 0%;
+  background-color: #444A59;
+  padding: 0 0 40px 0;
+}
+.wrap {
+  width: 100%;
+}
+.header-content {
+  clear: both;
+}
+.header-steps {
+  max-width: 380px;
+  text-align: left;
+  color: white;
+  line-height: 1.4em;
+}
+.intro-step {
+  width: 33px;
+  float: left;
+  margin-right: 15px;
+}
+.dashboard-header h1 {
+  color: white;
+  line-height: 1.4em;
+  text-align: center;
+}
+.navigation {
+  height: 50px;
+  margin-top: 13px;
+  margin-bottom: 50px;  
+}
+.yodaa-logo {
+  float: left;
+  width: 120px;
+}
+.yodaa-logo img {
+  width: 100%;
+}
+.contact-yodaa {
+  float: right;
+  color: white;
+  font-family: "Lato"; font-weight: 700;
+  margin-top: 8px;
+  opacity: 0.8;
+  -webkit-transition: All 0.2s ease;
+  -moz-transition: All 0.2s ease;
+  -o-transition: All 0.2s ease;
+  -ms-transition: All 0.2s ease;
+  transition: All 0.2s ease;
+}
+.contact-yodaa:hover {
+  color: #fff;
+  opacity: 1;
+}
+.contact-yodaa:focus {
+  text-decoration: none;
+  color: white;
+}
+.need-help {
+  font-family: "Lato"; font-weight: 700;
+  margin-right: 20px;
+}
+
+.quotes-dashboard {
+  padding: 30px 0 50px 0;
+}
+
+.quote {
+  width: 100%;
+  border: 1px solid #ebebeb;
+  display: inline-block;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow:    0px 1px 4px 0px rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 3px;
+  margin-bottom: 28px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: All 0.2s ease; 
+  -moz-transition: All 0.2s ease; 
+  -o-transition: All 0.2s ease; 
+  -ms-transition: All 0.2s ease; 
+  transition: All 0.2s ease;
+  max-height: 310px; 
+}
+.quote:hover {
+  opacity: 0.8;
+}
+.quote-profile {
+  padding: 30px;
+}
+.quote-profile .quote-photo img {
+  width: 80px;
+}
+.quote-photo {
+    width: 80px;
+    height: 80px;
+}
+.quote .teacher-photo {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.quote .teacher-summary {
+  margin-left: 0;
+  max-width: 198px;
+  margin-top: 5px;
+}
+.quote .teacher-name {
+  color: #444A59;
+  font-size: 1.4em;
+}
+.quote .teacher-school {
+  color: #7C808A;
+}
+.quote .review-count {
+  color: #7C808A;;
+}
+.quote-message-preview {
+  width: 100%;
+  background-color: #F5F6F6;
+  padding: 20px 30px 15px 30px;
+}
+.small-caps {
+  text-align: center;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  font-family: "Lato"; font-weight: 700;
+  margin-top: 12px;
+}
+
+/* Modal Styling */
+
+.modal-custom {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  .modal-custom {
+    width: 780px;
+  }
+}
+@media (max-width: 767px) {
+  .modal-custom {
+    margin-top: 0px;
+  }
+}
+.modal-content {
+  border: none;
+  border-radius: 3px;
+}
+.close-modal {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.close-modal img {
+  width: 18px;
+  opacity: 0.7;
+}
+
+/* Responsive Quote-Dashboard Styling */
+
+@media (max-width: 767px) {
+  .quote .teacher-summary {
+    display: inline-block;
+    text-align: center;
+  }
+  .quote-profile {
+    text-align: center;
+  }
+  .quote .teacher-photo {
+    display: inline-block;
+  }
+  .dashboard-header h1 {
+    text-align: center;
+  }
+  .need-help {
+    display: none;
+  }
+
+  body .container {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body .container {
+    padding: 0;
+  }
+}
+
+.quotes-dashboard button {
+  text-align: left;
+}
+
+
+
+/* Quotes
+=================================================== */
+
+
+.hired-bg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.hired-text {
+  margin-top: 150px;
+}
+
+
+
+/* Sign-up modal
+=================================================== */
+
+.sign-up-button {
+  margin-top: 50px;
+}
+
+.sign-up-modal {
+  background-color: #fff;
+  width: 500px;
+  border-radius: 3px;
+  text-align: center;
+  overflow: hidden;
+}
+.modal-container {
+  padding: 35px 50px 12px 50px;
+}
+.yodaa-button {
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  padding: 12px 0;
+  width: 100%;
+  background-color: #f55466;
+}
+.facebook-login-button {
+  margin-top: 30px;
+  background-color: #3b5998;
+}
+.yodaa-button .small-caps {
+  font-family: opensans-bold;
+}
+.yodaa-button i {
+  margin-right: 10px;
+}
+.reveal-email {
+  border: none;
+  background-color: transparent;
+  color: #7C808A;
+  margin-bottom: 0;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.or {
+  padding: 8px;
+  background-color: #fff;
+  color: #7C808A;
+}
+.or-holder {
+  margin-bottom: 30px;
+  margin-top: 22px;
+}
+.or-holder hr {
+  margin-top: -10px;
+}
+.text-box {
+  box-shadow: none;
+  border-radius: 3px;
+  height: 42px;
+  font-family: "Lato"; 
+  color: #7B7F89;
+  background-color: #fbfbfb;
+  border: 1px solid #DADBDE;
+  margin-bottom: 8px;
+}
+.email-login-button {
+  background-color: #F55466;
+}
+.email-sign-up, .login-email-sign-up {
+  margin-bottom: 35px;
+}
+
+.no-account-yet {
+  padding: 20px;
+  width: 100%;
+  background-color: #F5F6F6;
+}
+.no-account-yet a {
+  font-family: opensans-bold;
+  color: #f55466;
+  margin-left: 5px;
+  -webkit-transition: All 0.2s ease; 
+  -moz-transition: All 0.2s ease; 
+  -o-transition: All 0.2s ease; 
+  -ms-transition: All 0.2s ease; 
+  transition: All 0.2s ease;
+}
+.no-account-yet a:hover {
+  color: #CE4655;
+  cursor: pointer;
+}
+
+/* Teacher On-boarding 
+=================================================== */
+
+.info-box {
+  margin: 0 auto;
+  width: 580px;
+  margin-bottom: 50px;
+}
+.info-box .modal-container {
+  padding: 40px;
+}
+.info-box-segment {
+  margin-bottom: 40px;
+}
+.background-imagery {
+  background: #333 url("../img/bg.jpg") no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  text-align: center;
+}
+.zipcode-input {
+  margin-top: 20px;
+  width: 240px;
+}
+.info-box p {
+  text-align: left;
+}
+.l2-heading {
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+.info-box .l2-heading {
+  text-align: left;
+}
+.subject-list {
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+}
+.subject-name {
+  width: 48%;
+  display: inline-block;
+}
+.subject-name .checkbox {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.subject-name label {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #7C808A;
+  font-family: "Lato"; 
+  -webkit-transition: All 0.2s ease; 
+  -moz-transition: All 0.2s ease; 
+  -o-transition: All 0.2s ease; 
+  -ms-transition: All 0.2s ease; 
+  transition: All 0.2s ease;
+}
+.subject-name label:hover {
+  color: #444a59;
+  font-family: "Lato"; font-weight: 700;
+}
+.yodaa-logo-1 {
+  width: 130px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+
+.form-holder {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+}
+.onboarding-form-group {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+.onboarding-form-group input {
+  margin-top: 0;
+  width: 100%;
+}
+.onboarding-form-group label.small-caps {
+  color: #444a59;
+  margin-top: 0;
+  font-size: 0.75em;
+}
+.personal-particulars {
+  margin-bottom: 15px;
+}
+
+
+@media (max-width: 767px) {
+  .sign-up-modal, .info-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 95%;
+  }
+  .zipcode-input {
+    width: 100%;
+  }
+  .modal-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/*
+LIGHTSABER 
+.lightsaber{position:relative}.lightsaber label{cursor:pointer;position:absolute;bottom:0;left:0;z-index:88;text-indent:-9999px;width:15px;height:50px;border-bottom:solid 4px grey;border-top:solid 5px grey;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;background:#e2e2e2;background:linear-gradient(to right,rgba(226,226,226,1) 0,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);background:-moz-linear-gradient(left,rgba(226,226,226,1) 0,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,rgba(226,226,226,1)),color-stop(50%,rgba(219,219,219,1)),color-stop(51%,rgba(209,209,209,1)),color-stop(100%,rgba(254,254,254,1)));background:-webkit-linear-gradient(left,rgba(226,226,226,1) 0,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);background:-o-linear-gradient(left,rgba(226,226,226,1) 0,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);background:-ms-linear-gradient(left,rgba(226,226,226,1) 0,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2',endColorstr='#fefefe',GradientType=1)}.lightsaber .switch{background:#b94a37;width:5px;height:10px;display:block;position:absolute;bottom:25px;left:13px;transition:left 200ms;-moz-transition:left 200ms;-webkit-transition:left 200ms;-o-transition:left 200ms;-ms-transition:left 200ms;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px;-ms-border-radius:10px}.lightsaber input[type=checkbox]{position:absolute;bottom:0;left:0;opacity:0;-moz-opacity:0;-webkit-opacity:0;-o-opacity:0;-ms-opacity:0;z-index:77}.lightsaber .plasma{transition:height 300ms,;-moz-transition:height 300ms;-webkit-transition:height 300ms;-o-transition:height 300ms;-ms-transition:height 300ms;border-radius:12px 12px 0 0;position:absolute;bottom:55px;left:2px;width:10px;display:block;filter:blur(1px);-moz-filter:blur(1px);-webkit-filter:blur(1px);-o-filter:blur(1px);-ms-filter:blur(1px);height:0}.lightsaber input[type=checkbox]:checked ~ div.plasma{height:250px}.lightsaber input[type=checkbox]:hover ~ div.switch{background:#c09853;left:12px}.lightsaber input[type=checkbox]:checked ~ div.switch{background:#468847}.yoda{background:#87dc5a;background:linear-gradient(to right,#87dc5a 0,#fefefe 30%,#fefefe 50%,#fefefe 70%,#87dc5a 100%);background:-moz-linear-gradient(left,#87dc5a 0,#fefefe 30%,#fefefe 50%,#fefefe 70%,#87dc5a 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,#87dc5a),color-stop(30%,#fefefe),color-stop(50%,#fefefe),color-stop(70%,#fefefe),color-stop(100%,#87dc5a));background:-webkit-linear-gradient(left,#87dc5a 0,#fefefe 30%,#fefefe 50%,#fefefe 70%,#87dc5a 100%);background:-o-linear-gradient(left,#87dc5a 0,#fefefe 30%,#fefefe 50%,#fefefe 70%,#87dc5a 100%);background:-ms-linear-gradient(left,#87dc5a 0,#fefefe 30%,#fefefe 50%,#fefefe 70%,#87dc5a 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#87dc5a',endColorstr='#87dc5a',GradientType=1);animation-name:yoda;-moz-animation-name:yoda;-webkit-animation-name:yoda;-o-animation-name:yoda;-ms-animation-name:yoda;animation-duration:2s;-moz-animation-duration:2s;-webkit-animation-duration:2s;-o-animation-duration:2s;-ms-animation-duration:2s;animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;-ms-animation-iteration-count:infinite}.vader{background:#e51115;background:linear-gradient(to right,rgba(229,17,21,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(229,17,21,1) 100%);background:-moz-linear-gradient(left,rgba(229,17,21,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(229,17,21,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,rgba(229,17,21,1)),color-stop(30%,rgba(254,254,254,1)),color-stop(47%,rgba(254,254,254,1)),color-stop(71%,rgba(254,254,254,1)),color-stop(100%,rgba(229,17,21,1)));background:-webkit-linear-gradient(left,rgba(229,17,21,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(229,17,21,1) 100%);background:-o-linear-gradient(left,rgba(229,17,21,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(229,17,21,1) 100%);background:-ms-linear-gradient(left,rgba(229,17,21,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(229,17,21,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e51115',endColorstr='#e51115',GradientType=1);animation-name:vader;-moz-animation-name:vader;-webkit-animation-name:vader;-o-animation-name:vader;-ms-animation-name:vader;animation-duration:2s;-moz-animation-duration:2s;-webkit-animation-duration:2s;-o-animation-duration:2s;-ms-animation-duration:2s;animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;-ms-animation-iteration-count:infinite}.windu{background:#ca74dd;background:linear-gradient(to right,rgba(202,116,221,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(202,116,221,1) 100%);background:-moz-linear-gradient(left,rgba(202,116,221,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(202,116,221,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,rgba(202,116,221,1)),color-stop(30%,rgba(254,254,254,1)),color-stop(47%,rgba(254,254,254,1)),color-stop(71%,rgba(254,254,254,1)),color-stop(100%,rgba(202,116,221,1)));background:-webkit-linear-gradient(left,rgba(202,116,221,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(202,116,221,1) 100%);background:-o-linear-gradient(left,rgba(202,116,221,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(202,116,221,1) 100%);background:-ms-linear-gradient(left,rgba(202,116,221,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(202,116,221,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ca74dd',endColorstr='#ca74dd',GradientType=1);animation-name:windu;-moz-animation-name:windu;-webkit-animation-name:windu;-o-animation-name:windu;-ms-animation-name:windu;animation-duration:2s;-moz-animation-duration:2s;-webkit-animation-duration:2s;-o-animation-duration:2s;-ms-animation-duration:2s;animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;-ms-animation-iteration-count:infinite}.obi-wan{background:#3784d6;background:linear-gradient(to right,rgba(55,132,214,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(55,132,214,1) 100%);background:-moz-linear-gradient(left,rgba(55,132,214,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(55,132,214,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,rgba(55,132,214,1)),color-stop(30%,rgba(254,254,254,1)),color-stop(47%,rgba(254,254,254,1)),color-stop(71%,rgba(254,254,254,1)),color-stop(100%,rgba(55,132,214,1)));background:-webkit-linear-gradient(left,rgba(55,132,214,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(55,132,214,1) 100%);background:-o-linear-gradient(left,rgba(55,132,214,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(55,132,214,1) 100%);background:-ms-linear-gradient(left,rgba(55,132,214,1) 0,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(55,132,214,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3784d6',endColorstr='#3784d6',GradientType=1);animation-name:obi-wan;-moz-animation-name:obi-wan;-webkit-animation-name:obi-wan;-o-animation-name:obi-wan;-ms-animation-name:obi-wan;animation-duration:2s;-moz-animation-duration:2s;-webkit-animation-duration:2s;-o-animation-duration:2s;-ms-animation-duration:2s;animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;-ms-animation-iteration-count:infinite}div{-webkit-transform:translateZ(0);-o-transform:translateZ(0);-moz-transform:translateZ(0);transform:translateZ(0)}@keyframes yoda{from{box-shadow:0 0 10px #7ec855}50%{box-shadow:0 0 16px #7ec855}to{box-shadow:0 0 10px #7ec855}}@-moz-keyframes yoda{from{box-shadow:0 0 10px #7ec855}50%{box-shadow:0 0 16px #7ec855}to{box-shadow:0 0 10px #7ec855}}@-webkit-keyframes yoda{from{box-shadow:0 0 10px #7ec855}50%{box-shadow:0 0 16px #7ec855}to{box-shadow:0 0 10px #7ec855}}@-o-keyframes yoda{from{box-shadow:0 0 10px #7ec855}50%{box-shadow:0 0 16px #7ec855}to{box-shadow:0 0 10px #7ec855}}@-ms-keyframes yoda{from{box-shadow:0 0 10px #7ec855}50%{box-shadow:0 0 16px #7ec855}to{box-shadow:0 0 10px #7ec855}}@keyframes vader{from{box-shadow:0 0 10px #e51115}50%{box-shadow:0 0 16px #e51115}to{box-shadow:0 0 10px #e51115}}@-moz-keyframes vader{from{box-shadow:0 0 10px #e51115}50%{box-shadow:0 0 16px #e51115}to{box-shadow:0 0 10px #e51115}}@-webkit-keyframes vader{from{box-shadow:0 0 10px #e51115}50%{box-shadow:0 0 16px #e51115}to{box-shadow:0 0 10px #e51115}}@-o-keyframes vader{from{box-shadow:0 0 10px #e51115}50%{box-shadow:0 0 16px #e51115}to{box-shadow:0 0 10px #e51115}}@-ms-keyframes vader{from{box-shadow:0 0 10px #e51115}50%{box-shadow:0 0 16px #e51115}to{box-shadow:0 0 10px #e51115}}@keyframes windu{from{box-shadow:0 0 10px #ca74dd}50%{box-shadow:0 0 16px #ca74dd}to{box-shadow:0 0 10px #ca74dd}}@-moz-keyframes windu{from{box-shadow:0 0 10px #ca74dd}50%{box-shadow:0 0 16px #ca74dd}to{box-shadow:0 0 10px #ca74dd}}@-webkit-keyframes windu{from{box-shadow:0 0 10px #ca74dd}50%{box-shadow:0 0 16px #ca74dd}to{box-shadow:0 0 10px #ca74dd}}@-o-keyframes windu{from{box-shadow:0 0 10px #ca74dd}50%{box-shadow:0 0 16px #ca74dd}to{box-shadow:0 0 10px #ca74dd}}@-ms-keyframes windu{from{box-shadow:0 0 10px #ca74dd}50%{box-shadow:0 0 16px #ca74dd}to{box-shadow:0 0 10px #ca74dd}}@keyframes obi-wan{from{box-shadow:0 0 10px #3784d6}50%{box-shadow:0 0 16px #3784d6}to{box-shadow:0 0 10px #3784d6}}@-moz-keyframes obi-wan{from{box-shadow:0 0 10px #3784d6}50%{box-shadow:0 0 16px #3784d6}to{box-shadow:0 0 10px #3784d6}}@-webkit-keyframes obi-wan{from{box-shadow:0 0 10px #3784d6}50%{box-shadow:0 0 16px #3784d6}to{box-shadow:0 0 10px #3784d6}}@-o-keyframes obi-wan{from{box-shadow:0 0 10px #3784d6}50%{box-shadow:0 0 16px #3784d6}to{box-shadow:0 0 10px #3784d6}}@-ms-keyframes obi-wan{from{box-shadow:0 0 10px #3784d6}50%{box-shadow:0 0 16px #3784d6}to{box-shadow:0 0 10px #3784d6}}
+*/
+
+
+/* Teacher Dashboard - Main styles
+=================================================== */
+
+/* Header nav */
+.header-nav {
+  background-color: #444a59;
+  border: 0;
+  border-radius: 0;
+}
+.header-nav-container {
+  padding: 0 10px;
+}
+.header-nav .yodaa-logo {
+  width: 80px;
+  position: relative;
+  top: 13px;
+}
+.header-nav .container-fluid .navbar-header{
+  margin-left: -5px;
+}
+.navbar-collapse {
+  border: 0;
+}
+@media (min-width: 768px) {
+  .teacher-nav-options, .system-nav-options {
+    float: right;
+  }
+}
+
+
+/* Teacher Profile */
+.teacher-dashboard {
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.dashboard-info-box {
+  margin: 0;
+  width: 100%;
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+}
+
+.teacher-profile {
+  margin-top: 0;
+}
+.teacher-summary .form-holder {
+  margin-top: 0;
+}
+.teacher-summary .onboarding-form-group .small-caps {
+  color: #fff;
+}
+.teacher-summary .text-box {
+  background-color: #2F333E;
+  border: none;
+  color: #fff;
+  margin-bottom: 0;
+}
+.teacher-profile .contact-segment {
+  background-color: #ffffff;
+}
+.teacher-profile-textbox {
+  margin-top: 15px;
+}
+.teacher-profile-segment .header-text {
+  display: inline-block;
+}
+.change-photo-fade-in {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  border: 5px solid transparent;
+  cursor: pointer;
+  -webkit-transition: All 0.2s ease; 
+  -moz-transition: All 0.2s ease; 
+  -o-transition: All 0.2s ease; 
+  -ms-transition: All 0.2s ease; 
+  transition: All 0.2s ease;
+}
+.change-photo-fade-in:hover {
+  opacity: 0.7;
+}
+.edit-button {
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 5px 12px;
+  cursor: pointer;
+  -webkit-transition: All 0.2s ease; 
+  -moz-transition: All 0.2s ease; 
+  -o-transition: All 0.2s ease; 
+  -ms-transition: All 0.2s ease; 
+  transition: All 0.2s ease;
+}
+.edit-button:hover {
+  background-color: #fafafa;
+  border: 1px solid #BDBFC4;
+}
+.edit-button i {
+  margin-right: 5px;
+}
+.edit-position-1 {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  color: #fff;
+}
+.edit-position-1:hover {
+  background-color: transparent;
+}
+.edit-position-2 {
+  position: relative;
+  bottom: 4px;
+  left: 10px;
+}
+.save-button {
+  width: 180px;
+  margin-top: 15px;
+}
+.get-reference-link {
+  width: 220px;
+  float: left;
+}
+.copy-link {
+  width: 180px;
+  margin-left: 5px;
+}
+.get-reference-box {
+  width: 100%;
+  padding: 40px 0;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.get-reference {
+  width: 405px;
+  margin: 0 auto;
+}
+.get-reference p {
+  margin-bottom: 10px;
+}
+.teacher-summary .teacher-summary-form .small-caps {
+  color: #ffffff;
+}
+.teacher-profile-segments hr {
+  margin-bottom: 0;
+}
+.teacher-profile-segment .onboarding-form-group {
+  margin-bottom: 0;
+}
+.teacher-education .form-holder {
+  margin-top: 0;
+}
+.teacher-education .form-holder .text-box {
+  margin-bottom: 15px;
+}
+.teacher-dashboard .teacher-profile .teacher-profile-cta {
+  display: none;
+}
+
+
+/* Todo list */
+.todo-list {
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.todo-list a, .todo-list a:hover, .todo-list a:focus {
+  color: #7C808A;
+}
+.todo-list-item {
+  margin-bottom: 18px;
+}
+.todo-list-item-status {
+  display: inline-block;
+}
+.todo-list-item-status img {
+  width: 25px;
+}
+.todo-list-item-text {
+  position: relative;
+  top: 2px;
+  left: 10px;
+  font-weight: 700;
+} 
+.not-done {
+  border-radius: 100%;
+  border: 2px solid #DDBA76;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+}
+.num-of-steps {
+  font-weight: 700;
+  color: #444a59;
+}
+.complete-profile-header {
+  margin-bottom: 30px;
+}
+
+/* Teacher Requests Dashboard
+=================================================== */
+
+.dashboard-header {
+  background: #282736;
+}
+.dashboard-header .container {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.teacher-requests-dashboard-header h1 {
+  text-align: left;
+  font-weight: 400;
+}
+.teacher-requests-dashboard-header p {
+  width: 63%;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .teacher-requests-dashboard-header {
+    text-align: center;
+  }
+  .teacher-requests-dashboard-header h1 {
+    text-align: center;
+  }
+  .teacher-requests-dashboard-header p {
+    width: 100%;
+    color: #fff;    
+  }
+}
+
+
+
+.teacher-request-body .row-1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .teacher-request-body .row-1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0;
+    margin-right: 0;  
+  }
+}
+.teacher-request-body li {
+  margin-bottom: 15px;
+}
+
+
+
+.customer-request-card {
+  width: 100%;
+  display: inline-block;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 3px;
+  padding: 0 0 30px 0;
+  opacity: 1;
+  -webkit-transition: All 0.2s ease; 
+  -moz-transition: All 0.2s ease; 
+  -o-transition: All 0.2s ease; 
+  -ms-transition: All 0.2s ease; 
+  transition: All 0.2s ease;
+}
+.customer-request-card:hover {
+  opacity: 0.8;
+}
+.request-card-profile {
+  padding: 40px 40px 0 40px;
+}
+.request-card-profile .review-customer {
+  display: inline-block;
+}
+.request-card-profile .time-of-quote-holder {
+  display: inline-block;
+  float: right;
+}
+.request-card-profile .profile-photo {
+  width: 52px;
+  height: 52px;
+}
+.request-card-profile .profile-photo img {
+  min-width: 52px;
+  min-height: 52px;
+  max-width: 70px;
+  max-height: 70px;
+}
+.request-card-profile .review-customer-summary {
+  margin-top: 6px;
+}
+.request-card-subject-desc {
+  padding: 20px 40px 20px 40px;
+}
+.request-card-subject-desc h2 {  
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+.request-card-other-details {
+  padding: 0 40px 0 40px;
+}
+.request-card-location img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+/* Teacher Send Quote
+=================================================== */
+
+.dashboard-header-thin, .navigation-thin {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.teacher-send-quote-control, .teacher-send-quote-details {  
+  width: 100%;  
+  display: inline-block;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 3px;
+  padding: 40px;
+  opacity: 1;
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-transition: All 0.2s ease; 
+  -moz-transition: All 0.2s ease; 
+  -o-transition: All 0.2s ease; 
+  -ms-transition: All 0.2s ease; 
+  transition: All 0.2s ease;
+}
+@media(max-width: 767px) {
+  .teacher-send-quote-control, .teacher-send-quote-details { 
+    padding: 30px;
+  }
+}
+
+.teacher-send-quote-control .teacher-price-input {
+  width: 120px;
+  display: inline-block;
+  margin-right: 8px;
+  text-align: right;
+}
+.send-quote-header {
+  margin-bottom: 25px;
+}
+.teacher-send-quote-control label {
+  display: block;
+  text-align: left;
+}
+.teacher-send-quote-control textarea {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.request-status {
+  position: absolute;
+  left: 0;
+  background-color: #F3F4F8;
+  width: 100%;
+  padding: 20px 40px;
+  margin-top: 25px
+}
+.request-datetime {
+  color: #444a59;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.teacher-send-quote-details .small-caps {
+  font-size: 0.75em;
+  color: #444a59;
+  margin-top: 5px;
+}
+.status-value {
+  color: #444a59;
+  font-weight: 300;
+  font-size: 1.75em;  
+}
+.teacher-send-quote-details .request-card-subject-desc {
+  margin-top: 170px;
+}
+.teacher-send-quote-details .request-card-subject-desc h2 {
+  font-size: 1.7em;
+}
+.other-detail-row {
+  margin-bottom: 20px;
+}
+
+
+
+
+/* Teacher Send Quote Success Modal
+=================================================== */
+
+.quote-success-modal {
+  background: #fff;
+  border-radius: 3px;
+  padding: 40px;
+  margin-top: 100px;
+}
+.quote-success-modal .send-quote-header {
+  padding: 0 0 0 30px;
+  text-align: center;
+}
+.whats-next .col-sm-6 {
+  text-align: center;
+  padding: 0 30px;
+}
+.whats-next img {
+  width: 80px;
+  margin-bottom: 10px;  
+}
+.quote-success-modal .cta-holder {
+  margin-top: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Teacher Quotes Dashboard
+=================================================== */
+
+.quote-notification {
+  background: #fafafa;
+  padding: 15px 40px 15px 40px;
+  position: relative;
+}
+.quote-notification-hired {
+  background: #DDBA76;
+  color: #fff;
+}
+.quote-notification-hired .quote-notification-text {
+  color: #fff;
+}
+.quote-notification-text {
+  color: #444a59;
+  font-weight: 600;
+}
+.quote-notification-subtext {
+  display: block;
+  margin-top: 5px;
+}
+.quote-notification-alert {
+  background: #ddba76;
+  height: 100%;
+  width: 7px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.quote-notification-time {
+  text-align: right;
+  float: right;
+}

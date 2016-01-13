@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+ <html> 
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+
+    <!-- Header -->
+    <div class="dashboard-header wrap dashboard-header-thin">
+      <div class="container">
+        <div class="navigation navigation-thin">
+          <div class="yodaa-logo"><img src="./img/logo-white.png"></div>
+          <a href="tel:+6593802771" class="contact-yodaa"><span class="need-help">Need Help?</span><i class="fa fa-phone contact-icon"></i><span>93802771</span></a>
+          <div class="contact-yodaa"></div>
+        </div>
+
+        <!-- Navigation
+        <div class="navigation">
+          <div class="yodaa-logo"><img src="./img/logo-white.png"></div>
+          <div class="contact-yodaa">+65 9380 2769</div>
+        </div> -->        
+      </div> <!-- end container -->
+    </div> <!-- end header -->
+
+    <!-- Quotes Dashboard -->
+
+    <div class="container teacher-request-body">
+      <div class="row row-1">
+
+        <div class="col-md-7">
+          <div class="teacher-send-quote-control">
+
+            <div class="send-quote-header">
+              <h2 class="l2-heading">Send a quote</h2>
+              <p>Quote a price and send a personal message.</p>
+            </div>
+
+            <div class="send-quote-body">
+              <div class="form-group onboarding-form-group">
+                <label class="small-caps">QUOTE A PRICE</label>
+                <input type="text" class="form-control text-box teacher-price-input" placeholder="e.g. 30">
+                <span>SGD per hour</span>
+              </div>
+              <div class="form-group onboarding-form-group">
+                <label class="small-caps">WRITE A MESSAGE</label>                                            
+                <textarea class="form-control text-box teacher-profile-textbox" placeholder="Describe yourself and your passion for teaching, and how you can help." rows="6" cols="50"></textarea>                                             
+              </div>
+            </div>
+
+            <div class="cta-holder save-button">
+              <button class="red-button yodaa-button" data-toggle="modal" data-target="#QuoteSuccessModal">              
+                <span class="small-caps">SEND MY QUOTE</span>
+              </button>
+            </div>   
+
+          </div>  
+        </div>
+
+        <div class="col-md-5">
+          <div class="teacher-send-quote-details teacher-send-quote-control"> 
+
+            <!--
+            <div class="send-quote-header">
+              <h2 class="l2-heading">Mary Anne's Request</h2>              
+            </div>
+            -->
+
+            <div class="request-card-profile">
+              <div class="review-customer">
+                <div class="review-customer-photo profile-photo"><img src="./img/sam.jpg"></div>
+                <div class="review-customer-summary">
+                  <h3 class="review-customer-name">Mary-Anne Lim</h3>
+                  <p class="review-customer-school">Student</p>
+                </div>
+              </div>
+              <div class="request-status">
+                <div class="request-datetime">
+                  <span>Posted 4 hours ago</span>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">
+                    <label class="small-caps">REQUEST EXPIRES IN</label>
+                    <span class="status-value expiration-time">8h 12min</span>
+                  </div>
+                  <div class="col-xs-6">
+                    <label class="small-caps">TEACHERS QUOTED</label>
+                    <span class="status-value number-of-teachers-quoted">1/5</span>
+                  </div>
+                </div>
+              </div>
+              <div class="request-card-subject-desc">
+                <h2>English Literature, <span>Junior College 2</span></h2>
+                <p>Looking for a good lit teacher to help me pass my coming O lvls. I need urgent help as I’ve always been weak at math. If the teacher can help me understand wtf animal farm is trying to teach the world that would be great.</p>                 
+              </div>
+              <div class="request-card-other-details">
+                <div class="row other-detail-row">
+                  <div class="col-xs-6">
+                    <label class="small-caps">HOW OFTEN</label>
+                    <span class="request-other-detail how-often">Twice a week</span>
+                  </div>
+                  <div class="col-xs-6">
+                    <label class="small-caps">WHEN I NEED IT</label>
+                    <span class="request-other-detail lesson-length">ASAP</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">
+                    <label class="small-caps">LESSON LENGTH</label>
+                    <span class="request-other-detail lesson-length">2 hours</span>
+                  </div>                  
+                  <div class="col-xs-6 other-detail-row">
+                    <label class="small-caps">LOCATION</label>
+                    <span class="request-other-detail lesson-length">Yishun, Singapore 720122</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Dark overlay 
+    <div class="overlay"> 
+    </div> -->
+
+    <!-- Filter Modal 1
+    <div class="notification-modal">
+
+      <div class="send-quote-header">
+        <h2 class="l2-heading">Quote Successfully Sent.</h2>
+        <p>What's next?</p>
+      </div>
+
+      <div class="whats-next">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="./img/called.png">
+            <p><span>Jenny</span> will choose tutors to contact, through phone or email.</p>
+          </div>
+          <div class="col-sm-6">
+            <img src="./img/trophy.png">
+            <p>When Jenny contacts you, work out the details with her. It’s your show.</p>
+          </div>          
+        </div>
+      </div>  
+
+      <div class="cta-holder">
+        <button class="red-button yodaa-button">              
+          <span class="small-caps">SEND MY QUOTE</span>
+        </button>
+      </div>
+
+    </div>--> 
+
+    <!-- modal -->
+    <div class="modal fade" id="QuoteSuccessModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-custom quote-success-modal" role="document">
+        <div class="send-quote-header">
+          <h2 class="l2-heading">Quote Successfully Sent.</h2>
+          <p>What's next?</p>
+        </div>
+
+        <div class="whats-next">
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="./img/called.png">
+              <p><span>Jenny</span> will choose tutors to contact, through phone or email.</p>
+            </div>
+            <div class="col-sm-6">
+              <img src="./img/trophy.png">
+              <p>When Jenny contacts you, work out the details with her. It’s your show.</p>
+            </div>          
+          </div>
+        </div>  
+
+        <div class="cta-holder">
+          <button class="red-button yodaa-button">              
+            <span class="small-caps">SEE MORE REQUESTS</span>
+          </button>
+        </div>
+      </div>
+    </div>
+              
+
+
+
+  </body>
+  <script src="./js/app.js"></script>
+</html>
