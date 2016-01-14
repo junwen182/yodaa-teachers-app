@@ -1313,3 +1313,18 @@ LIGHTSABER
   text-align: right;
   float: right;
 }
+
+.customer-sign-up-modal {
+  max-width: 550px;
+}
+.customer-sign-up-container .sign-up-text {
+  text-align: center;
+}
+.customer-sign-up-container h2 {
+  margin-bottom: 10px;
+}
+.customer-sign-up-modal .modal-container {
+  padding-bottom: 10px;
+}
+
+
