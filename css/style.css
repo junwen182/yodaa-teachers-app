@@ -504,7 +504,6 @@ body {
   -o-transition: All 0.2s ease; 
   -ms-transition: All 0.2s ease; 
   transition: All 0.2s ease;
-  max-height: 310px; 
 }
 .quote:hover {
   opacity: 0.8;
@@ -1328,3 +1327,48 @@ LIGHTSABER
 }
 
 
+
+/* Customer My Requests Dashboard
+=================================================== */
+
+.customer-my-request-card .quote-notification {
+  padding: 15px 40px 11px 40px;
+}
+.customer-my-request-card .profile-photo {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+.customer-my-request-card .teachers-quoted-photos {
+  height: 40px;
+  display: inline-block;
+}
+.customer-my-request-card .profile-photo img {
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 60px;
+  max-height: 60px;
+}
+.customer-my-request-card .quote-notification-text {
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+}
+.my-request-date {
+  color: #444a59;
+}
+
+.customer-view-teacher .teacher-profile-segment{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.customer-view-teacher .teacher-profile-cta {
+  margin-top: 0;
+}
+
+
+.teacher-profile-hire-section {
+  background: #fff;
+  position: fixed;
+  width: 780px;
+}
