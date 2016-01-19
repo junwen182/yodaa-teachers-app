@@ -72,8 +72,11 @@ $(".teacher-education .form-holder .yodaa-button").click(function() {
 });
 
 
-
-
-
-
-// Link copied interaction
+// Color change of Navbar on scroll
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+});

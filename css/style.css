@@ -1057,6 +1057,7 @@ LIGHTSABER
 
 .dashboard-header {
   background: #282736;
+  padding-top: 80px;
 }
 .dashboard-header .container {
   padding-left: 8px;
@@ -1252,6 +1253,25 @@ LIGHTSABER
 /* Teacher Send Quote Success Modal
 =================================================== */
 
+.teacher-send-quote-wrapper {
+  padding-top: 50px;
+}
+@media(max-width: 767px) {
+  .teacher-send-quote-wrapper {
+    margin-top: 50px;
+  }
+}
+.teacher-send-quote-wrapper .request-card-profile {
+  padding: 0;
+}
+.teacher-send-quote-wrapper .request-card-subject-desc {
+  padding-left: 0;
+  padding-right: 0;
+}
+.teacher-send-quote-wrapper .request-card-other-details {
+  padding-left: 0;
+  padding-right: 0;
+}
 .quote-success-modal {
   background: #fff;
   border-radius: 3px;
@@ -1371,4 +1391,100 @@ LIGHTSABER
   background: #fff;
   position: fixed;
   width: 780px;
+}
+
+
+/* Navigation bar 
+================================================== */
+.navbar-custom {
+    margin-bottom: 0;    
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+.navbar-custom .yodaa-logo {
+  width: 100px;
+}
+.navbar-custom .container {
+  padding: 0 15px;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+    padding-top: 11px;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    font-family: lato;
+    font-weight: 500;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(max-width: 767px) {
+  .navbar-custom .navbar-collapse, .navbar-custom .navbar-header {
+    background: #14171C;
+  }
+}
+@media(min-width:768px) {
+  .navbar-custom {
+    padding: 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: #282736;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    /* border-bottom: 1px solid rgba(255,255,255,.3); */
+    background: #14171C;
+  }
 }
