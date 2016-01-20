@@ -1396,6 +1396,7 @@ LIGHTSABER
 
 /* Navigation bar 
 ================================================== */
+
 .navbar-custom {
     margin-bottom: 0;    
     text-transform: uppercase;
@@ -1486,5 +1487,94 @@ LIGHTSABER
     padding: 0;
     /* border-bottom: 1px solid rgba(255,255,255,.3); */
     background: #14171C;
+  }
+}
+
+
+
+/* Teacher Referral
+================================================== */
+
+.teacher-referral-holder .modal-container {
+  padding: 0;
+}
+.teacher-referral-holder .info-box-segment {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.teacher-referral-holder .l2-heading {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.rating-scale-holder {
+  width: 100%;
+}
+.rating-value-holder {
+  width: 20%;
+  height: 40px;
+  border: 1px solid #DADBDE;
+  float: left;
+  margin-right: -1px;
+  padding-top: 9px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+.rating-value-holder:hover {
+  background-color: #ebebeb;
+}
+.referral-relationship {
+  text-align: left;
+}
+.referral-relationship li input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.referral-rating {
+  margin-bottom: 90px;
+}
+
+.referral-teacher-header {
+  background-color: #fafafa;
+  padding:40px;
+}
+.bolded {
+  font-weight: 800;
+}
+
+.referral-upload-pic {
+  text-align: left;
+}
+.email-sign-up .profile-photo {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #d7d7d7;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  float: none;
+  display: inline-block
+}
+.email-sign-up .profile-photo img {
+  min-height: 80px;
+  min-width: 80px;
+  max-height: 100px;
+  max-width: 100px;
+}
+.referral-upload-pic span {
+  position: relative;
+  bottom: 55px;
+  left: 15px;
+}
+.email-sign-up .referral-upload-pic .change-photo-fade-in {
+  opacity: 0.8;
+  max-height: 80px;
+  max-width: 80px;
+  left: -1px;
+  top: -1px;
+}
+@media(max-width: 767px) {
+  .email-sign-up .teacher-photo {
+    margin: 15px 0 20px 0;
   }
 }

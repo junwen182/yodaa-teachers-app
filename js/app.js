@@ -80,3 +80,19 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
+
+
+// Rating-scale selection effects
+$(".rating-value-holder").click(function() {
+  // Give "this" bg color red, and add the rating value to a variable
+  var rating = $(this).text();
+  console.log(rating);
+  $(this).css({"background-color":"#DDBA76", "color":"#fff", "border":"1px solid #DDBA76"});
+  // Make the others bg color white
+  $(this).siblings().css({"background-color":"#fff", "color":"#333", "border":"1px solid #DADBDE"});
+  return rating;
+});
+
+
+
+
