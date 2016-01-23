@@ -67,7 +67,7 @@ ul {
 
 @media(min-width: 1200px) {
   .container {
-    width: 1250px;
+    width: 1100px;
   }
 }
 
@@ -421,7 +421,6 @@ body {
   background-size: cover;
   background-position: 55% 0%;
   background-color: #444A59;
-  padding: 0 0 40px 0;
 }
 .wrap {
   width: 100%;
@@ -1057,7 +1056,7 @@ LIGHTSABER
 
 .dashboard-header {
   background: #282736;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 .dashboard-header .container {
   padding-left: 8px;
@@ -1085,7 +1084,9 @@ LIGHTSABER
 }
 
 
-
+.teacher-request-body {
+  margin-top: 50px;
+}
 .teacher-request-body .row-1 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1208,6 +1209,9 @@ LIGHTSABER
   display: block;
   text-align: left;
 }
+.teacher-send-quote-control .save-button {
+  width: 100%;
+}
 .teacher-send-quote-control textarea {
   margin-top: 0;
   margin-bottom: 0;
@@ -1247,14 +1251,24 @@ LIGHTSABER
   margin-bottom: 20px;
 }
 
-
+.teacher-quote-text {
+  font-weight: 800;
+  font-size: 16px;
+  color: #ddba76;
+  margin-bottom: 20px;
+}
+.quote-sent-timing {
+  position: absolute;
+  top: 45px;
+  right: 40px;;
+}
 
 
 /* Teacher Send Quote Success Modal
 =================================================== */
 
 .teacher-send-quote-wrapper {
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 @media(max-width: 767px) {
   .teacher-send-quote-wrapper {
@@ -1578,3 +1592,65 @@ LIGHTSABER
     margin: 15px 0 20px 0;
   }
 }
+
+
+
+/* Page status notifications
+================================================== */
+
+.page-notification {
+  padding: 40px;
+  background-color: #ddba76;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.page-notification h2 {
+  color: #fff;
+  margin-bottom: 8px;
+  line-height: 32px;
+}
+.page-notification p {
+  color: #fff;
+  font-weight: 600;
+}
+.page-notification-img {
+  float: left;
+  margin-right: 35px;
+}
+.teacher-send-quote-wrapper .page-notification-img {
+  width: 50px;
+}
+.page-notification-text {
+  padding-left: 35px;
+}
+.page-notification .cta-holder {
+  padding-left: 35px;
+  margin-top: 30px;
+}
+/* .teacher-send-quote-control .teacher-quote-message {
+  padding-left: 72px;
+  margin-top: 20px;
+} */
+.teacher-quote-message {
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+}
+@media(max-width: 767px) {
+  .page-notification-img {
+    display: none;
+  }
+  .page-notification-text, .page-notification .cta-holder {
+    padding-left: 0;
+  }
+}
+.notification-close {
+  width: 14px;
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  cursor: pointer;
+}
+
+

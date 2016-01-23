@@ -21,7 +21,11 @@
 
   <body>
 
-    <!-- Navigation -->
+
+    <!-- Header -->
+    <div class="dashboard-header wrap">
+      <div class="container">
+        <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -60,79 +64,52 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
-    </nav>    
+    </nav>
+
+        <div class="header-content teacher-requests-dashboard-header">
+          <h1>Customer Requests</h1>
+          <p>Requests expire in 24 hours or until 5 teachers have quoted. Click on a request to view more details and engage the customer.</p>
+        </div>
+      </div> <!-- end container -->
+    </div> <!-- end header -->
 
     <!-- Quotes Dashboard -->
 
     <div class="container teacher-request-body">
       <div class="row row-1">
-        <div class="col-md-10 col-md-offset-1">
-
-          <!-- Page notification -->
-          <div class="page-notification">
-            <div class="row">
-              <div class="col-sm-1">
-                <img class="page-notification-img" src="./img/yodaa-quotes-icon.png">
-              </div>
-              <div class="col-sm-11">
-                <div class="page-notification-text">
-                  <h2>Welcome to your Quotes page!</h2>
-                  <p>You can view the requests you have quoted for, and check whether the customer has chosen to hire you.</p>
-                </div>
-              </div>
-            </div>                        
-            <img class="notification-close" src="./img/cross.png">
-          </div>
-          <!-- End page notification -->
-
+        <div class="col-md-7">
           <ul class="teacher-requests-list">
-            <a href="teacher-send-quote-quote-sent.html">
-              <li>
-                <div class="customer-request-card"> 
+            <li>
+              <div class="customer-request-card"> 
 
-                  <div class="quote-notification">
-                    <div class="quote-notification-alert"></div>
-                    <span class="quote-notification-text">Mary-Anne Lim viewed your profile</span>   
-                    <span class="quote-notification-time">23 minutes ago</span>               
-                  </div>
-
-                  <div class="request-card-profile">
-                    <div class="review-customer">
-                      <div class="review-customer-photo profile-photo"><img src="./img/sam.jpg"></div>
-                      <div class="review-customer-summary">
-                        <h3 class="review-customer-name">Mary-Anne Lim</h3>
-                        <p class="review-customer-school">Student</p>
-                      </div>
-                    </div>
-                    <!-- <span class="time-of-quote-holder">You quoted <span class="time-of-quote">2 days ago</span></span> -->
-                  </div>
-
-                  <div class="request-card-subject-desc">
-                    <h2>English Literature, <span>Junior College 2</span></h2>
-                    <p>Looking for a good algebra teacher to help me pass my coming O lvls. I need urgent help as I’ve always been weak at math. If the teacher can… </p>                 
-                  </div>
-
-                  <div class="request-card-other-details">
-                    <div class="request-card-location">
-                      <img src="./img/location-pin.png">
-                      <span class="">Yishun, Singapore 702122</span>
+                <div class="request-card-profile">
+                  <div class="review-customer">
+                    <div class="review-customer-photo profile-photo"><img src="./img/sam.jpg"></div>
+                    <div class="review-customer-summary">
+                      <h3 class="review-customer-name">Mary-Anne Lim</h3>
+                      <p class="review-customer-school">Student</p>
                     </div>
                   </div>
-
                 </div>
-              </li>
-            </a>
+
+                <div class="request-card-subject-desc">
+                  <h2>English Literature, <span>Junior College 2</span></h2>
+                  <p>Looking for a good algebra teacher to help me pass my coming O lvls. I need urgent help as I’ve always been weak at math. If the teacher can… </p>                 
+                </div>
+
+                <div class="request-card-other-details">
+                  <div class="request-card-location">
+                    <img src="./img/location-pin.png">
+                    <span class="">Yishun, Singapore 702122</span>
+                  </div>
+                </div>
+
+              </div>
+            </li>
             
             <li>
               <div class="customer-request-card"> 
 
-                <div class="quote-notification">
-                  <div class="quote-notification-alert"></div>
-                  <span class="quote-notification-text">Conor McLim messaged you</span>
-                  <span class="quote-notification-time">4 hours ago</span>
-                  <span class="quote-notification-subtext">Yo Viv! I'm gonna kick yo ass wanna fight yo momma...</span>
-                </div>
-
                 <div class="request-card-profile">
                   <div class="review-customer">
                     <div class="review-customer-photo profile-photo"><img src="./img/sam.jpg"></div>
@@ -141,7 +118,6 @@
                       <p class="review-customer-school">Student</p>
                     </div>
                   </div>
-                  <!-- <span class="time-of-quote-holder">You quoted <span class="time-of-quote">2 days ago</span></span> -->
                 </div>
 
                 <div class="request-card-subject-desc">
@@ -160,23 +136,16 @@
             </li>
 
             <li>
-              <div class="customer-request-card">
-
-                <div class="quote-notification quote-notification-hired">
-                  <div class="quote-notification-alert"></div>
-                  <span class="quote-notification-text">Gregor Tan has chosen to hire you!</span>   
-                  <span class="quote-notification-time">2 days ago</span>               
-                </div> 
+              <div class="customer-request-card"> 
 
                 <div class="request-card-profile">
                   <div class="review-customer">
                     <div class="review-customer-photo profile-photo"><img src="./img/sam.jpg"></div>
                     <div class="review-customer-summary">
-                      <h3 class="review-customer-name">Gregor Tan</h3>
-                      <p class="review-customer-school">Parent</p>
+                      <h3 class="review-customer-name">Mary-Anne Lim</h3>
+                      <p class="review-customer-school">Student</p>
                     </div>
                   </div>
-                  <!-- <span class="time-of-quote-holder">You quoted <span class="time-of-quote">2 days ago</span></span> -->
                 </div>
 
                 <div class="request-card-subject-desc">
@@ -249,7 +218,6 @@
 
               </div>
             </li>
-          </ul>
         </div>
         <div class="col-md-4">
           <!-- <button class="quote" data-toggle="modal" data-target="#myModal">
