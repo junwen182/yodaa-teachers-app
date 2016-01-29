@@ -67,7 +67,7 @@ ul {
 
 @media(min-width: 1200px) {
   .container {
-    width: 1100px;
+    width: 1200px;
   }
 }
 
@@ -235,6 +235,9 @@ body {
   margin-bottom: 30px;
   border-bottom: 1px solid #D2D2D6;
 }
+.reviews .review .review-customer-summary {
+  margin-top: 15px;
+}
 .review-date {
   margin-top: 10px;
 }
@@ -279,7 +282,12 @@ body {
   clear: both;
   margin-top: 35px;
 }
-
+@media(max-width: 767px) {
+  .reviews .review .review-customer-summary  {
+    width: 75%;
+    margin-top: 0px;
+  }
+}
 
 .red-button {
   color: white;
@@ -1603,6 +1611,7 @@ LIGHTSABER
   background-color: #ddba76;
   border-radius: 3px;
   margin-bottom: 15px;
+  position: relative;
 }
 .page-notification h2 {
   color: #fff;
@@ -1649,8 +1658,68 @@ LIGHTSABER
   width: 14px;
   position: absolute;
   top: 20px;
-  right: 35px;
+  right: 20px;
   cursor: pointer;
 }
 
 
+/* Teacher quotes list
+=================================================== */
+
+.teacher-quotes-list-header {
+  width: 100%;
+  padding: 50px;
+  /* background-color: #444a59; */
+  background: #CE4655;
+  margin-top: 50px;
+  text-align: center;
+}
+.teacher-quotes-list {
+  margin-top: 15px;
+}
+.step-content-holder {
+  margin-top: 45px;
+}
+.step-content {
+  margin-bottom: 15px;
+}
+.step-content img {
+  width: 35px;
+}
+.step-content p {
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+  position: relative;
+  top: 13px;
+  left: 10px;
+}
+.teacher-quotes-list-header h1, .teacher-quotes-list-header p {
+  color: #ffffff;
+}
+.teacher-quotes-list-header h1 {
+  font-weight: 200;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.teacher-quotes-list .page-notification {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.teacher-quotes-list .row-1 {
+  padding-top: 0;
+}
+@media(max-width: 767px) {
+  .teacher-quotes-list .page-notification-holder {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+}
+
+.dark-grey-bg {
+  background-color: #444a59;
+}
+.your-requests-list-holder {
+  margin-top: 0;
+}
