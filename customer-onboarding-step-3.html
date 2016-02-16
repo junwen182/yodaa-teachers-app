@@ -25,36 +25,46 @@
 
       <img class="yodaa-logo-1" src="./img/Yodaa-thicker-logo-white.png"/>
 
-      <div class="info-box sign-up-modal customer-sign-up-modal">
+      <div class="info-box sign-up-modal">
         <div class="modal-container teacher-log-in-container">
 
-          <div class="customer-sign-up-container">          
-            <h2>Sign up to send teachers your request</h2>
-            <p class="sign-up-text">We value authenticity to improve your's and our teachers' experience.</p>
-            <a href="customer-request-dashboard.html"><button class="yodaa-button facebook-login-button">
-              <i class="fa fa-facebook"></i>
-              <span class="small-caps">SIGN UP WITH FACEBOOK</span>
-            </button>
-            <div class="yodaa-button reveal-email"><i class="fa fa-envelope"></i><span class="small-caps">SIGN UP WITH EMAIL</span></div>
-            <div class="email-sign-up">
-              <div class="or-holder">  
-                <span class="or small-caps">OR</span>
-                <hr>
-              </div>
-              <input type="email" class="form-control text-box" placeholder="Email">
-              <input type="password" class="form-control text-box" placeholder="Password">
-              <button class="yodaa-button email-login-button">
-                <i class="fa fa-envelope"></i>
-                <span class="small-caps">JOIN WITH EMAIL</span>
-              </button></a>
-            </div>            
+          <div class="info-box-segment personal-particulars">
+            <h2 class="l2-heading">Describe your teaching needs</h2>
+            <p>Giving detailed info leads to higher quality teacher choices, as they can better decide if they are a good fit for your needs. It also saves you time by not having to restate your needs to each individual teacher later.</p>
+            <div class="form-holder">
+
+              <div class="row">   
+                <div class="col-sm-12">
+                  <div class="form-group onboarding-form-group">
+                    <label class="small-caps">WHAT YOU WANT TO ACHIEVE WITH TUITION</label>
+                    <textarea class="form-control text-box" placeholder="Describe your needs in detail." rows="4" cols="50"></textarea>
+                  </div>  
+                </div>             
+                <div class="col-sm-6">
+                  <div class="form-group onboarding-form-group">
+                    <label class="small-caps">LESSON LOCATION (POSTAL CODE)</label>
+                    <input type="text" pattern="[0-9]*" class="form-control text-box zipcode-input" placeholder="e.g. 750313">
+                  </div>  
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group onboarding-form-group">
+                    <label class="small-caps">LESSONS PER WEEK</label>
+                    <input type="text" pattern="[0-9]*" class="form-control text-box zipcode-input" placeholder="e.g. 2">
+                  </div>  
+                </div>
+              </div> <!-- end row -->         
+            </div> <!-- end form holder -->
+          </div>
+
+          <div class="cta-holder">
+            <a href="./customer-onboarding-step-2.html">
+              <button class="red-button yodaa-button">              
+                <span class="small-caps">CONTINUE</span>
+              </button>
+            </a>
           </div>
 
         </div>
-        <div class="no-account-yet">
-            <span class="">Already on Yodaa?</span>
-            <a class="customer-log-in-switch" href="./customer-onboarding-step-3-login.html">Log In</a>
-          </div>
       </div>
 
 

@@ -1725,3 +1725,85 @@ LIGHTSABER
 }
 
 
+/* Customer - Hired
+====================================================== */
+.hired-holder {
+  padding: 0;
+  background: white;
+  margin-top: 80px;
+}
+.hired-header {
+  padding: 1px 40px 10px 40px;
+  background: #ddba76;
+  text-align: center;
+}
+.hired-left-segment {
+  padding: 50px;
+}
+.hired-left-segment li {
+  margin-bottom: 20px;
+}
+.hired-left-segment .facebook-login-button {
+  margin-top: 5px;
+}
+.hired-holder h1 {
+  font-size: 2.1em;
+  line-height: 1.4em;
+  color: #fff;
+}
+.hired-holder h2 {
+  font-size: 1.6em;
+}
+.hired-teacher {
+  text-align: center;
+  padding-top: 50px;
+}
+.hired-teacher .teacher-name {
+  color: #444a59;
+  margin-bottom: 10px;
+}
+.hired-teacher .teacher-summary {
+  margin-left: 0;
+}
+.hired-teacher .teacher-photo {
+  margin-bottom: 10px;
+  float: none;
+}
+.hired-contact {
+  color: #7c808a;
+  display: block;
+  margin-bottom: 5px;
+}
+.hired-contact b {
+  font-weight: 500;
+}
+.hired-contact .fa {
+  margin-right: 8px;
+}
+
+/* Misc components
+====================================================== */
+
+
+.customer-request-onboarding {
+  width: 450px;
+}
+@media (max-width: 767px) {
+ .customer-request-onboarding {
+    width: 95%;    
+  } 
+}
+.customer-request-onboarding .progress {
+  height: 8px;
+  border-radius: 20px;
+  background: #e9e9e9;
+  box-shadow: none;
+}
+.customer-request-onboarding .progress .progress-bar {
+  background: #ddba76;
+  box-shadow: none;
+}
+.customer-request-onboarding h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
