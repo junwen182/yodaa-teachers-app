@@ -1825,6 +1825,15 @@ body {
   background: #e9e9e9;
   box-shadow: none;
 }
+.progress-holder {
+  position: relative;
+  margin-bottom: 40px;
+}
+.progress-holder span {
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
 .customer-request-onboarding .progress .progress-bar, .teacher-dashboard-info-box .progress .progress-bar {
   background: #ddba76;
   box-shadow: none;
@@ -1839,5 +1848,7 @@ body {
 .customer-request-onboarding input {
   margin-top: 0;
 }
-
+.overflow-visible {
+  overflow: visible;
+}
 
