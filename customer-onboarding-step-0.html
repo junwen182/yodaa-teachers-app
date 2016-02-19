@@ -25,33 +25,37 @@
 
       <img class="yodaa-logo-1" src="./img/Yodaa-thicker-logo-white.png"/>
 
-      <div class="info-box sign-up-modal">
+      <div class="info-box sign-up-modal customer-request-onboarding">
         <div class="modal-container teacher-log-in-container">
 
-          <div class="info-box-segment personal-particulars">
-            <h2 class="l2-heading">Describe your teaching needs</h2>
-            <p>Giving detailed info leads to higher quality teacher choices, as they can better decide if they are a good fit for your needs. It also saves you time by not having to restate your needs to each individual teacher later.</p>
-            <div class="form-holder">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="10"
+            aria-valuemin="0" aria-valuemax="100" style="width:10%">              
+            </div>
+          </div>
 
-              <div class="row">   
+          <div class="info-box-segment personal-particulars">
+            <!--
+            <h2 class="l2-heading">Your Contact Info</h2>
+            <p>Your information will be kept safe with us.</p>
+            -->
+            <div class="form-holder">
+              <div class="row">
                 <div class="col-sm-12">
                   <div class="form-group onboarding-form-group">
-                    <label class="small-caps">WHAT YOU WANT TO ACHIEVE WITH TUITION</label>
-                    <textarea class="form-control text-box" placeholder="Describe your needs in detail." rows="4" cols="50"></textarea>
+                    <h3>What subject do you want a teacher for?</h3>
+                    <!-- <label class="small-caps">WHAT GRADE IS THE STUDENT IN?</label> -->
+                    <input type="text" class="form-control text-box zipcode-input" placeholder="e.g. H2 Mathematics">
                   </div>  
-                </div>             
-                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-12">
                   <div class="form-group onboarding-form-group">
-                    <label class="small-caps">LESSON LOCATION (POSTAL CODE)</label>
+                    <h3>Where do you want lessons to be?</h3>
+                    <p>Enter your postal code.</p>
+                    <!-- <label class="small-caps">WHAT SCHOOL IS THE STUDENT IN?</label> -->
                     <input type="text" pattern="[0-9]*" class="form-control text-box zipcode-input" placeholder="e.g. 750313">
                   </div>  
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group onboarding-form-group">
-                    <label class="small-caps">LESSONS PER WEEK</label>
-                    <input type="text" pattern="[0-9]*" class="form-control text-box zipcode-input" placeholder="e.g. 2">
-                  </div>  
-                </div>
+                </div>                
               </div> <!-- end row -->         
             </div> <!-- end form holder -->
           </div>
