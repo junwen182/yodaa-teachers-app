@@ -1851,4 +1851,83 @@ body {
 .overflow-visible {
   overflow: visible;
 }
+input, textarea {
+  color: #444a59 !important;
+}
 
+
+/* Contact Page
+====================================================== */
+
+.photo-background {
+  background: url("../img/guidance-bg-1.jpg");
+}
+.contact-form-heading {
+    margin-bottom: 30px;
+}
+.contact-form-heading h2 {
+    font-size: 2.8em;
+    margin-bottom: 12px;
+}
+.contact-form-heading p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+}
+.simple-success-notification {
+    width: 580px;
+    margin: 10px auto;
+    padding: 30px;
+}
+.simple-success-notification h2 {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+
+/* Contact Page
+====================================================== */
+
+.forgot-password-holder h1 {
+    font-size: 1.8em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+/* Forgot Password
+====================================================== */
+.forgot-password-link {
+  position: relative;
+  top: 20px;
+  color: #f55466;
+}
+.forgot-password-link:hover {
+  color: #f55466;
+}
+.forgot-password-notification {
+  padding: 10px;
+  max-width: 550px;
+  margin: 10px auto;
+}
+.forgot-password-notification .page-notification-text {
+  padding: 0;
+}
+@media(max-width: 797px) {
+  .forgot-password-notification {
+    width: 95%;
+  }
+}
+
+/* No requests / referral
+====================================================== */
+.norequests-notification {
+  text-align: center;
+}
+.norequests-notification h2 {
+  margin-bottom: 20px;
+}
+.norequests-notification p {
+  margin-bottom: 20px;
+}
