@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+ <html> 
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- font awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+    
+
+     <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <div class="yodaa-logo"><img src="./img/logo-white.png"></div>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="page-scroll" href="#">Requests</a>
+                    </li>
+                    <li>
+                        <a href="page-scroll" href="#">My Quotes</a>
+                    </li>
+                    <!--<li>                      
+          <a href="tel:+6593802771" class="contact-yodaa"><i class="fa fa-phone contact-icon"></i><span>93802771</span></a>
+                    </li>-->
+                    <li>
+                        <a href="page-scroll" href="#">Profile</a>
+                    </li>
+                    <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    <li>
+                        <a href="page-scroll" href="#">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+    <!-- Main Content -->
+    <div class="teacher-dashboard">
+
+      <div class="container">
+
+        <div class="row">
+
+
+          <!-- 4 columns: Instructions box -->
+          <div class="col-md-4">       
+
+            <div class="info-box sign-up-modal dashboard-info-box">
+              <div class="modal-container teacher-log-in-container">
+
+                <div class="info-box-segment personal-particulars">
+                  <h2 class="l2-heading complete-profile-header">Complete your profile.</h2>
+                  <p>Here’s your Teacher Profile, which customers see when you send your quotes. Complete a winning profile to stand out. </p>
+                  <br>
+                  <p class="num-of-steps">2 more steps to go.</p> 
+                  <p>When you’re done, you can start quoting for customer requests.</p>
+                  <ul class="todo-list">
+                    <li class="todo-list-item todo-list-item-done">
+                      <a href="#">
+                        <div class="todo-list-item-status"><img src="./img/todo-list-done.png"></div>
+                        <span class="todo-list-item-text">Profile picture</span>
+                      </a>
+                    </li>
+                    <li class="todo-list-item todo-list-item-done">
+                      <a href="#">
+                        <div class="todo-list-item-status"><img src="./img/todo-list-done.png"></div>
+                        <span class="todo-list-item-text">Education</span>
+                      </a>
+                    </li>
+                    <li class="todo-list-item todo-list-item-done">
+                      <a href="#">
+                        <div class="todo-list-item-status"><img src="./img/todo-list-done.png"></div>
+                        <span class="todo-list-item-text">Profile write-up</span>
+                      </a>
+                    </li>
+                    <li class="todo-list-item">
+                      <a href="#">
+                        <div class="todo-list-item-status"><img src="./img/todo-list-todo.png"></div>
+                        <span class="todo-list-item-text">Get 2 references</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="cta-holder">
+                  <a href="teacher-request-dashboard.html"><button class="red-button yodaa-button">              
+                    <span class="small-caps">VIEW CUSTOMER REQUESTS</span>
+                  </button></a>
+                </div>          
+
+              </div>
+            </div>
+
+          </div> <!-- end col-sm-4 -->
+
+
+          <!-- 8 columns: Teacher Profile -->
+          <div class="col-md-8">
+            <!-- teacher profile -->
+            <div class="teacher-profile">
+
+              <div class="head-section">              
+                <div class="profile-photo teacher-photo"><img src="./img/kristen.jpg"><img class="change-photo-fade-in" src="./img/change-photo.png"></div>
+                <div class="teacher-summary">
+                  <div class="form-holder">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group onboarding-form-group">
+                          <label class="small-caps">FIRST NAME</label>
+                          <input type="text" class="form-control text-box zipcode-input" placeholder="e.g. Vivian">
+                        </div>  
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group onboarding-form-group">
+                          <label class="small-caps">LAST NAME</label>
+                          <input type="text" class="form-control text-box zipcode-input" placeholder="e.g. Lim">
+                        </div>  
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group onboarding-form-group">
+                          <label class="small-caps">PHONE NUMBER</label>
+                          <input type="text" pattern="[0-9]*" class="form-control text-box zipcode-input" placeholder="e.g. 81234567">
+                        </div>  
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group onboarding-form-group">
+                          <label class="small-caps">EMAIL</label>
+                          <input type="email" class="form-control text-box zipcode-input" placeholder="e.g. vivian-lim@gmail.com">
+                        </div>  
+                      </div>                    
+                    </div>
+                    <div class="cta-holder save-button">
+                      <button class="red-button yodaa-button">              
+                        <span class="small-caps">SAVE</span>
+                      </button>
+                    </div> 
+                  </div>
+
+
+
+
+                    
+                  <div class="edit-button edit-position-1">
+                    <i class="fa fa-pencil"></i>
+                    <span class="small-caps">EDIT</span>
+                  </div>
+                  <h2 class="teacher-name">Kristen Tanuraju</h2>
+                  <p class="teacher-school">National University of Singapore</p>
+                  <ul class="customer-rating">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star review-count">8 Reviews</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="contact-segment horizontal-scroll">
+                <div class="contact-segment-options">
+                  <!-- 
+                  <a href="#"><div class="hire contact-segment-option col-sm-4 col-xs-8">
+                    HIRE KRISTEN
+                  </div></a> -->
+                  <a href="tel:+6593802771"><div class="phone contact-segment-option col-sm-6 col-xs-4">
+                    <i class="fa fa-phone contact-icon"></i><b>93802771</b>
+                  </div></a>
+                  <a href="mailto:kristen.tanuraja@gmail.com"><div class="email contact-segment-option col-sm-6 col-xs-8">
+                    <i class="fa fa-envelope contact-icon"></i><b>kristen.tanuraja@gmail.com</b>
+                  </div></a>                
+                </div>
+              </div>
+
+              <div class="teacher-profile-segments">
+
+                <!-- Write-up -->
+                <div class="teacher-profile-writeup teacher-profile-segment">
+                  <h2 class="header-text">Profile</h2>
+                  
+                  <!-- Edit button -->
+                  <div class="edit-button edit-position-2">
+                    <i class="fa fa-pencil"></i>
+                    <span class="small-caps">EDIT</span>
+                  </div>
+
+                  <p class="teacher-profile-writeup-complete-text">
+                    If you're looking for somebody to either help you catch up in math, or get ahead in math, I'm your teacher. I was a math major at Washington University in St. Louis, and minored in German,economics, and writing. While there, I tutored students in everything from counting to calculus, and beyond. I then earned a Masters of Arts in Teaching from Bard College in '07. I've been tutoring for 10+ years, and full-time for 6+. I've had students between the ages of 6 and 66, with a focus on high school students and that curriculum, though I am very comfortable tutoring any undergraduate math course, and would likely be able to assist in any graduate math course.
+                  </p>
+
+                  <div class="form-group onboarding-form-group">                  
+                    <p>Help students and customers learn about you and your teaching services.</p> 
+                    <textarea class="form-control text-box teacher-profile-textbox" placeholder="Describe yourself and your passion for teaching and the subjects chosen." rows="8" cols="50"></textarea>
+                    <div class="cta-holder save-button">
+                      <button class="red-button yodaa-button">              
+                        <span class="small-caps">SAVE</span>
+                      </button>
+                    </div>                                     
+                  </div>  
+
+                </div>
+
+                <hr>
+
+                <!-- Education -->
+                <div class="teacher-education teacher-profile-segment">
+                  <h2 class="header-text">Education</h2>
+                  <!-- Edit button -->
+                  <div class="edit-button edit-position-2">
+                    <i class="fa fa-pencil"></i>
+                    <span class="small-caps">EDIT</span>
+                  </div>
+                  <!-- Form group -->
+                  <div class="form-holder">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group onboarding-form-group">
+                          <label class="small-caps">SCHOOL OF HIGHEST QUALIFICATION</label>
+                          <input type="text" class="form-control text-box zipcode-input" placeholder="e.g. National University of Singapore">
+                        </div>  
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group onboarding-form-group">
+                          <label class="small-caps">COURSE OF STUDY</label>
+                          <input type="text" class="form-control text-box zipcode-input" placeholder="E.g. Bachelor of Science (Mathematics)">
+                        </div>  
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group onboarding-form-group">
+                          <label class="small-caps">GRADUATION YEAR</label>
+                          <input type="text" pattern="[0-9]*" class="form-control text-box zipcode-input" placeholder="e.g. 2015">
+                        </div>  
+                      </div>
+                    </div>
+                    <div class="cta-holder save-button">
+                      <button class="red-button yodaa-button">              
+                        <span class="small-caps">SAVE</span>
+                      </button>
+                    </div> 
+                  </div>
+
+                  <!-- Completed -->
+                  <div class="teacher-education-school">
+                    <div class="school-text">
+                      <h3 class="school-name">National University of Singapore</h3>
+                      <p class="course-name">Bachelor of Computer Engineering (B.Eng Hons) <br> Graduation Year: 2014</p>
+                      
+                    </div>
+                    <div class="school-logo">
+                      <img src="./img/school-nus.png">
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <!-- Reviews -->            
+                <div class="teacher-reviews teacher-profile-segment">                  
+                  <h2 class="header-text">Reviews</h2>
+                  <p>When hiring a teacher, customers depend on references to help them understand the teacher’s skills, teaching style and whether the teacher would be a good fit. </p>
+
+                  <!-- Ask for reference -->
+                  <div class="get-reference-box">
+                    <div class="get-reference">
+                      <p>Get 2 references from students/parents by sending them this link:</p>
+                      <input type="text" class="form-control text-box get-reference-link" value="https://yodaa.co/15398" >
+                      <button class="red-button yodaa-button copy-link">              
+                        <span class="small-caps">COPY LINK</span>
+                      </button>
+
+                    </div>
+                  </div>
+
+                  <ul class="reviews">                            
+                    <li class="review">
+                      <div class="review-customer">
+                        <div class="review-customer-photo profile-photo"><img src="./img/sam.jpg"></div>
+                        <div class="review-customer-summary">
+                          <h3 class="review-customer-name">Steven Ho</h3>
+                          <p class="review-customer-school">Tampines Junior College</p>
+                          <ul class="customer-rating">
+                            <li class="star"><i class="fa fa-star"></i></li>
+                            <li class="star"><i class="fa fa-star"></i></li>
+                            <li class="star"><i class="fa fa-star"></i></li>
+                            <li class="star"><i class="fa fa-star"></i></li>
+                            <li class="star"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="review-content">
+                        <p>I studied with Kristen for my SATs. She has a very unique way of approaching the exam that my prior tutors did not offer. For example, she taught me how to analyze questions based on the way they are written. This was a great skill to have and made me much more confident about going into the test room.</p>
+                        <p class="review-date">Reference written on Dec 12, 2014</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="teacher-profile-cta">
+                  
+                </div>
+
+              </div> <!-- end teacher profile segments -->
+              
+            </div> <!-- end teacher profile -->
+
+          </div> <!-- end col-sm-8 -->
+
+        </div> <!-- end row -->
+
+
+
+      
+
+      </div> <!-- end teacher dashboard -->
+
+      
+
+
+          
+
+
+
+
+    </div> <!-- end Main content/Background imagery -->
+
+  </body>
+
+  <script src="./js/app.js"></script>
+</html>

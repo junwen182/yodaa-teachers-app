@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+ <html> 
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <div class="yodaa-logo"><img src="./img/logo-white.png"></div>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="page-scroll" href="#">Requests</a>
+                    </li>
+                    <li>
+                        <a href="page-scroll" href="#">My Quotes</a>
+                    </li>
+                    <!--<li>                      
+          <a href="tel:+6593802771" class="contact-yodaa"><i class="fa fa-phone contact-icon"></i><span>93802771</span></a>
+                    </li>-->
+                    <li>
+                        <a href="page-scroll" href="#">Profile</a>
+                    </li>
+                    <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    <li>
+                        <a href="page-scroll" href="#">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+   
+
+    <!-- Quotes Dashboard -->
+
+    <div class="container teacher-request-body teacher-send-quote-wrapper">
+      <div class="row row-1">
+
+        <div class="col-md-7">
+
+          <!-- Notification -->
+          <div class="page-notification">
+            <div class="row">
+              <div class="col-sm-1">
+                <img class="page-notification-img" src="./img/yodaa-tuition-messages.png">
+              </div>
+              <div class="col-sm-11">
+                <div class="page-notification-text">
+                  <h2>Quote successfully sent!</h2>
+                  <p>Mary-Anne will reach out through phone or email to learn more, or hire you. Otherwise, we’ll still keep you informed of Mary-Anne's decision.
+                  <br>
+                  <br>
+                  Meanwhile, quote for another request and raise your chances of getting hired!</p>
+                </div>
+                <a href="teacher-request-dashboard.html"><div class="cta-holder">
+                  <div class="yodaa-button small-caps">VIEW MORE REQUESTS</div>
+                </div></a>
+              </div>
+            </div>                        
+            <img class="notification-close" src="./img/cross.png">
+          </div>
+          <!-- End notification -->
+
+          <!-- Send quote -->
+          <div class="teacher-send-quote-control">
+
+            <div class="request-card-profile">
+              <div class="review-customer">
+                <div class="review-customer-photo profile-photo"><img src="./img/sam.jpg"></div>
+                <div class="review-customer-summary">
+                  <h3 class="review-customer-name">Vivian Lim</h3>
+                  <p class="review-customer-school">Teacher</p>
+                </div>
+              </div>
+              <div class="teacher-quote-message">
+                <p class="teacher-quote-text">Teaching rate: $40 to $70 per hour</p>
+                <p>
+                  Hello Jenny! 
+                  <br><br>
+                  I major in theatre in University, and am very inclined to teach students in the workings of Stanislavsky and all that jazz. 
+                  <br><br>
+                  I harbour a sacred teaching style that only the most worthy of students will experience and benefit from.
+                  <br><br>
+                  Will you be the one? Let me know what you need!
+                </p>
+              </div>
+              <span class="quote-sent-timing">Sent on 5th Jan 2016</span>
+            </div>
+
+          </div>  
+          <!-- End Send quote -->
+        </div>
+
+        <div class="col-md-5">
+          <div class="teacher-send-quote-details teacher-send-quote-control"> 
+
+            <!--
+            <div class="send-quote-header">
+              <h2 class="l2-heading">Mary Anne's Request</h2>              
+            </div>
+            -->
+
+            <div class="request-card-profile">
+              <div class="review-customer">
+                <div class="review-customer-photo profile-photo"><img src="./img/sam.jpg"></div>
+                <div class="review-customer-summary">
+                  <h3 class="review-customer-name">Mary-Anne Lim</h3>
+                  <p class="review-customer-school">Student</p>
+                </div>
+              </div>
+              <div class="request-status">
+                <div class="request-datetime">
+                  <span>Posted 4 hours ago</span>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">
+                    <label class="small-caps">REQUEST EXPIRES IN</label>
+                    <span class="status-value expiration-time">8h 12min</span>
+                  </div>
+                  <div class="col-xs-6">
+                    <label class="small-caps">TEACHERS QUOTED</label>
+                    <span class="status-value number-of-teachers-quoted">1/5</span>
+                  </div>
+                </div>
+              </div>
+              <div class="request-card-subject-desc">
+                <h2>English Literature, <span>Junior College 2</span></h2>
+                <p>Looking for a good lit teacher to help me pass my coming O lvls. I need urgent help as I’ve always been weak at math. If the teacher can help me understand wtf animal farm is trying to teach the world that would be great.</p>                 
+              </div>
+              <div class="request-card-other-details">
+                <div class="row other-detail-row">
+                  <div class="col-xs-6">
+                    <label class="small-caps">HOW OFTEN</label>
+                    <span class="request-other-detail how-often">Twice a week</span>
+                  </div>
+                  <div class="col-xs-6">
+                    <label class="small-caps">WHEN I NEED IT</label>
+                    <span class="request-other-detail lesson-length">ASAP</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">
+                    <label class="small-caps">LESSON LENGTH</label>
+                    <span class="request-other-detail lesson-length">2 hours</span>
+                  </div>                  
+                  <div class="col-xs-6 other-detail-row">
+                    <label class="small-caps">LOCATION</label>
+                    <span class="request-other-detail lesson-length">Yishun, Singapore 720122</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Dark overlay 
+    <div class="overlay"> 
+    </div> -->
+
+    <!-- Filter Modal 1
+    <div class="notification-modal">
+
+      <div class="send-quote-header">
+        <h2 class="l2-heading">Quote Successfully Sent.</h2>
+        <p>What's next?</p>
+      </div>
+
+      <div class="whats-next">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="./img/called.png">
+            <p><span>Jenny</span> will choose tutors to contact, through phone or email.</p>
+          </div>
+          <div class="col-sm-6">
+            <img src="./img/trophy.png">
+            <p>When Jenny contacts you, work out the details with her. It’s your show.</p>
+          </div>          
+        </div>
+      </div>  
+
+      <div class="cta-holder">
+        <button class="red-button yodaa-button">              
+          <span class="small-caps">SEND MY QUOTE</span>
+        </button>
+      </div>
+
+    </div>--> 
+
+    <!-- modal -->
+    <div class="modal fade" id="QuoteSuccessModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-custom quote-success-modal" role="document">
+        <div class="send-quote-header">
+          <h2 class="l2-heading">Quote Successfully Sent.</h2>
+          <p>What's next?</p>
+        </div>
+
+        <div class="whats-next">
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="./img/called.png">
+              <p><span>Jenny</span> will choose tutors to contact, through phone or email.</p>
+            </div>
+            <div class="col-sm-6">
+              <img src="./img/trophy.png">
+              <p>When Jenny contacts you, work out the details with her. It’s your show.</p>
+            </div>          
+          </div>
+        </div>  
+
+        <div class="cta-holder">
+          <button class="red-button yodaa-button">              
+            <span class="small-caps">SEE MORE REQUESTS</span>
+          </button>
+        </div>
+      </div>
+    </div>
+              
+
+
+
+  </body>
+  <script src="./js/app.js"></script>
+</html>
